@@ -1,0 +1,418 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* start header and navbar */
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../pic1.JPG); 
+    position: relative;
+    margin-top: 0px;
+    background-size: cover;
+}
+nav{
+    position: absolute;
+    background-color: white;
+     top: 5%;
+     width: 70%;
+     height: 50px;  
+     left:15%;
+  
+padding: 20px 25px 35px 25px;
+  } 
+nav ul .active span{
+    background-color: orangered;
+    padding:19.5px 10px;
+    
+}
+ 
+nav h3{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+
+}
+nav ul li{
+    float: left;
+    margin-left: 15px;
+    padding-bottom:5px ;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.b1{ 
+    background-color: rgba(0, 0, 255, 0.692);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-right: 15px;
+}
+.b2{
+    background-color: rgba(255, 0, 0, 0.705);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.par{
+    width: 60%;
+    padding-top: 300px;
+    margin: auto;
+    text-align: center;
+    
+}
+/* end header and navbar */
+
+/* strt section one */
+.one{
+    text-align: center;
+    padding: 70px;
+    background-color: rgb(52, 130, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: white;
+}
+.one p{
+    font-size: 30px;
+
+}
+.b3{
+    border: 1px solid rgba(128, 128, 128, 0.89);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(52, 130, 231);
+} 
+.two{
+    width: 100%;
+    height: 440px;
+    display: flex;
+}
+.left{
+    width: 33.33333333%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.705);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+
+}
+.center{
+    width: 33.33333333%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.712);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+}
+.right{
+    width: 33.33333333%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    background-color: rgb(13, 113, 153);
+
+}
+#icon1{
+     padding: 140px;
+     margin-left: 50px;
+    font-size: 50px;
+}
+.left h3{
+    position: absolute;
+    bottom:180px;
+    margin-left: 140px;
+}
+.left p{
+    position: absolute;
+     bottom:80px; 
+     margin-left: 8px;
+
+}
+
+#icon2{
+padding: 140px;
+margin-left: 50px;
+font-size: 50px;
+}
+.center h3{
+    position: absolute;
+    bottom:180px;
+    margin-left: 155px;
+}
+ .center p{
+    position: absolute;
+    bottom:80px;
+    margin-left: 8px;
+} 
+#icon3{
+    padding: 140px;
+    margin-left: 60px;
+    font-size: 50px;
+    }
+    .right h3{
+        position: absolute;
+        bottom:180px;
+        margin-left: 130px;
+    }
+     .right p{
+        position: absolute;
+        bottom:80px;
+        margin-left: 8px;
+    } 
+    /* end section one */
+
+     /* start section two */
+     .large{
+         width: 100%;
+         /* background-color: rgb(20, 72, 184); */
+          position: relative; 
+         height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+    .large h2{
+        position: absolute;
+      margin-left: 500px;
+        top: 40px;
+     
+    }
+    .large p{
+        position: absolute;
+        margin-left: 400px;
+        top:80px;  
+    }
+    .par1{
+        width: 80%;
+        height: 150px;
+        position: absolute;
+        top: 160px;
+        margin-left: 210px;
+        display: flex;
+    
+    }
+    .div1{
+        width: 16%;
+        height: 100%;
+        background-color: tomato; 
+       
+       
+    }
+    #icon4{
+        padding: 40px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    .par1 h5{
+    
+        position: absolute;
+        bottom: 30px;
+        margin-left: 23px;
+        color: white;
+    }
+    
+
+    .div2{
+        width: 16%;
+        height: 100%;
+        background-color:rgba(128, 128, 128, 0.336);
+        margin-left: 5px;
+    }
+    #icon5{
+        padding: 40px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    .par1 h5{
+    
+        position: absolute;
+        bottom: 30px;
+        margin-left: 35px;
+        color: black;  
+    }
+    .div3{
+        width: 16%;
+        height: 100%;
+        background-color:rgba(128, 128, 128, 0.336);
+        margin-left: 5px;
+    }
+    #icon6{
+        padding: 40px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    .par1 h5{
+    
+        position: absolute;
+        bottom: 30px;
+        margin-left: 35px;
+        color: black;
+    }
+    .div4{
+        width: 16%;
+        height: 100%;
+        background-color:rgba(128, 128, 128, 0.336);
+        margin-left: 5px;
+    }
+    #icon7{
+        padding: 40px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    .par1 h5{
+    
+        position: absolute;
+        bottom: 30px;
+        margin-left: 35px;
+        color: black;  
+    }
+    .div5{
+        width: 16%;
+        height: 100%;
+        background-color:rgba(128, 128, 128, 0.336);
+        margin-left: 5px;
+    }
+    #icon8{
+        padding: 40px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    .par1 h5{
+    
+        position: absolute;
+        bottom: 30px;
+        margin-left: 35px;
+        color: black;
+
+    }
+    .par2{
+        width: 65.5%;
+        height: 300px;
+        position: absolute;
+        top: 325px;
+        margin-left: 205px;
+        display: flex;
+    
+    }
+    .div6{
+        width: 50%;
+        height: 100%;
+      
+        margin-left: 5px;
+    }
+    .par2 p{
+    margin-left: 7px;
+    top: 50px;
+    }
+    .b4{
+        background-color: rgba(0, 0, 255, 0.692);
+    color: white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    top:265px ;
+    }
+    .div7{
+        width: 50%;
+        height: 100%  
+    }
+    .div7 img{
+        width: 98%;
+        margin-left: 15px;
+        height: 100%;
+    }
+/* end section two */
+
+/* start fotter */
+.big{
+
+    width: 100%;
+    background-color: rgba(22, 1, 1, 0.678);
+     position: relative; 
+    height: 500px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+}
+
+.big h2{
+    position: absolute;
+  margin-left: 500px;
+    top: 40px;
+ 
+}
+.big p{
+    position: absolute;
+    margin-left: 400px;
+    top:80px;  
+}
+ .par3{
+    width: 65.5%;
+    height: 250px;
+    position: absolute;
+    top: 180px;
+    margin-left: 205px;
+    display: flex; 
+} 
+.div8{
+    width: 25%;
+    height: 100%;
+}
+.div8 img{
+    width: 100%;
+    height: 100%;
+}
+.div9{
+    width: 25%;
+    height: 100%;
+}
+.div9 img{
+    width: 100%;
+    height: 100%;
+    margin-left: 7px;
+}
+.div10{
+    width: 25%;
+    height: 100%;
+}
+.div10 img{
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+}
+.div11{
+    width: 25%;
+    height: 100%;
+}
+.div11 img{
+    width: 100%;
+    height: 100%;
+    margin-left: 23px;
+}
+#icon9{
+  position: absolute;
+  top: 450px;
+  margin-left: 650px;
+  color:  rgba(0, 0, 255, 0.692);;
+}
+/* end fotter */
